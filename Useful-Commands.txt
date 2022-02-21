@@ -1,0 +1,17 @@
+1)To install Sass
+  npm install node-sass
+
+2)To install axios
+  npm install axios
+
+3))To install sweetalert
+  npm install sweetalert
+
+4)To install html-entities
+  npm install html-entities
+
+5)To install react-router-dom
+  npm install react-router-dom@5.2.0
+
+6)To install the latest version of Vercel
+  npm i -g vercel

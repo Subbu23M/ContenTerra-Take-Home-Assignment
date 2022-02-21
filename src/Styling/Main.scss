@@ -1,0 +1,40 @@
+$borderValue:2px solid gray;
+
+body {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a {
+    text-decoration: none;
+    color: darkcyan;
+
+    &:hover {
+        color: darkgoldenrod;
+        text-decoration: underline;
+    }
+}
+
+.main-section {
+    border: $borderValue;
+    margin: 3rem;
+    padding: 1rem;
+
+    .card-main {
+        border: $borderValue;
+        padding: 1rem;
+
+    }
+
+    .card-main-two {
+        margin: 1rem;
+        padding: 1rem;
+        border: $borderValue;
+
+        .card-body {
+            border: $borderValue;
+        }
+    }
+}
