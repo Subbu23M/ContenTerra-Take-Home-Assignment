@@ -1,8 +1,8 @@
 import React,{useState,useEffect} from 'react';
-import axios from 'axios';
-import swal from 'sweetalert';
 import MapData from './MapData';
 import Loader from '../Loader';
+import axios from 'axios';
+import swal from 'sweetalert';
 
 const ExtractData = (props) => {
     // Array Destructuring - ES6

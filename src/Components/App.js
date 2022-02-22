@@ -1,6 +1,6 @@
 import React from 'react';
-import '../Styling/Main.scss';
 import Card from './Card';
+import '../Styling/Main.scss';
 
 const App = () => {
   return(
@@ -10,5 +10,4 @@ const App = () => {
     </section>
   )
 }
-
 export default App;
